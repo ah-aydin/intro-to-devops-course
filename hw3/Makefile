@@ -4,7 +4,7 @@ one:
 	touch ./one
 
 other_one:
-	echo "other_one"
+	@echo "other_one"
 	@touch ./one
 
 two: ./one
